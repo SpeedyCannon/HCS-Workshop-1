@@ -1,6 +1,14 @@
 import React from "react";
 import "./Project.css";
+import {Link} from "react-router-dom";
 
 export default function Project(props) {
-  return <div>This is a component!</div>;
+  return <Link to={{pathname: props.link}} className="project-background" target="_blank">
+    <div className="project-image">
+      <img src={props.source} />
+    </div>
+    <div className="project-info">
+      <h1>{props.title}</h1>
+    </div>
+  </Link>;
 }

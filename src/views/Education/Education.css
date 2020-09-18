@@ -1,4 +1,4 @@
-.experience-background {
+.education-background {
   display: flex;
 }
 
@@ -30,12 +30,12 @@
   background: crimson;
 }
 
-.experience-info {
+.education-info {
   padding: 24px;
   font-size: 10pt;
 }
 
-.experience-info h4,
+.education-info h4,
 p {
   margin: 0;
 }
